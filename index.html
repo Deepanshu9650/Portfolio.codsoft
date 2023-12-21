@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+    
+            /* ______________________________________________________PAGE ______________________________________________________ */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page>img{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    border-radius: 6rem;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 12%;
+    width: 100%;
+    
+}
+#center-nav{
+            display: flex;
+            gap: 20px;    
+}
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 0.5rem;
+    border: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+#center-nav>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    font-size: larger;
+}
+#logo{
+    height: 100%;
+    width: 8%;
+    
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#text{
+    
+    height: 75%;
+    width: 35%;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    
+}
+#text>h1{
+       position: relative;
+       font-size: 60px;
+       top: 30px;
+       padding-left: 10px;
+}
+#text>h4{
+    position: relative;
+    top: 100px;
+    padding-left: 25px;
+    font-weight: 1000;
+    font-size: 15px;
+}
+#text>h5{
+    font-size: larger;
+    color: rgb(216, 117, 216);
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 10%;
+    left: -10px;
+}
+#button{
+    
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+
+    
+}
+#button>button{
+          padding: 10px 22px;
+          border-radius: 10px;
+          border: none;
+          font-weight: 700;
+          margin-left: 20px;
+
+}
+#button>button>i{
+    font-size: 20px;
+
+}
+#button>button:hover{
+    background-color: blue;
+    color: white;
+}
+#nav>input:hover{
+    border: 2px solid blue;
+}
+#center-nav>a:hover{
+    color: blue;
+}
+
+
+/* _______________________________________________PAGE - 1______________________________________________ */
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(244, 191, 92);
+}
+#page1>#left{
+    height: 90%;
+    width: 35%;
+    background-color: brown;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#left>.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    height: 33.3%;
+    width: 100%;
+    background-color: rgb(244, 191, 92);
+    border-top: 1px solid #000;
+    font-size: 20px;
+}
+
+#left>.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    height: 33.3%;
+    width: 100%;
+    background-color: rgb(244, 191, 92);
+    border-top: 1px solid #000;
+    font-size: 20px;
+}
+
+#left>.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+    height: 33.3%;
+    width: 100%;
+    background-color: rgb(244, 191, 92);
+    border-top: 1px solid #000;
+    font-size: 20px;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 3vw;
+    background-color: blue;
+    border-radius: 50%;
+}
+.circle>i{
+         font-weight: 700;
+         font-size: larger;
+         color: white;
+         position: relative;
+         right: 0%;
+}
+#text1{
+    height: 30%;
+    width: 50%;
+    
+    position: absolute;
+    z-index: 9;
+    margin: 50px 50px;
+}
+#text1>h5{
+    position: absolute;
+    top: 5%;
+    transform: rotate(-20deg);
+    color: rgb(216, 117, 216);
+}
+#text1>h1{
+    position: absolute;
+    top: 15%;
+    font-size: 50px;
+}
+#text1>h4{
+    position: absolute;
+    bottom: 0%;
+}
+#right>img{
+    height: 30%;
+    width: 15%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 50%;
+    background-color: rgb(244, 191, 92);
+}
+
+/* ______________________________________________Page - 2___________________________________________ */
+
+
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:white;
+    
+}
+
+#page2>#left{
+    height: 70%;
+    width: 35%;
+    
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#left>#box11{
+    height: 20%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+#left>#box22{
+    height: 20%;
+    width: 100%;
+    
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left>#box33{
+    height: 20%;
+    width: 100%;
+    
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left>#box44{
+    height: 20%;
+    width: 100%;
+    
+    border-top: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left>#box55{
+    height: 20%;
+    width: 100%;
+    
+    border-top: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #left>img{
+    height: 30%;
+    width: 15%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 50%;
+    
+} */
+
+#page2>#right{
+    height: 100%;
+    width: 55%;
+}
+
+
+#right>#up{
+    height: 40%;
+    width: 100%;
+    
+   
+}
+#right>#down{
+    height: 60%;
+    width: 100%;
+   
+    
+}
+
+#up>h4{
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    color: rgb(216, 117, 216);
+}
+
+#up>h1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-weight: 1000;
+    font-size: 70px;
+}
+#up>h5{
+    position: absolute;
+    bottom: 62%;
+    right: 55%;
+    left: 8%;
+    font-size: medium;
+    
+}
+
+#down>.skill{
+        height: 20%;
+        width: 100%;
+       
+        display: flex;
+        align-items: center;
+        
+        
+}
+
+.skill>h1{
+    position: absolute;
+    left: 5%;
+}
+#down>.gola{
+    height: 40%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.gola>.circle1{
+          /* height: 100%;  */
+          width: 33.33%;
+          
+          display: flex;
+          justify-content: center;
+        
+}
+
+
+
+.circle1>i{
+   position: absolute;
+   margin-top: 2rem;
+    font-size: 60px;
+}
+
+.circle1>h3{
+    position: absolute;
+    margin-top: 1rem;
+}
+
+/* _____________________________________PAGE = 3__________________________________ */
+
+
+#page3{
+   
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color:rgb(244, 191, 92);
+}
+
+.project{
+    height: 50%;
+    width: 90%;
+  
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects{
+    height: 100%;
+    width: 31%;
+    
+}
+
+.text3{
+    border-top: 2px solid black;
+    height: 30%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.img{
+    
+    height: 70%;
+    width: 100%;
+    
+    background-image: url("https://images.unsplash.com/photo-1492551557933-34265f7af79e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2plY3RzfGVufDB8fDB8fHww");
+    background-size: cover;
+}
+
+.img3{
+    
+    height: 70%;
+    width: 100%;
+    
+   background-image: url("https://images.unsplash.com/photo-1635405038683-39ac9c4c70c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJvb2tpbmclMjBkZXNpZ258ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+}
+
+.img2{
+    
+    height: 70%;
+    width: 100%;
+   
+    background-image: url("https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9zdGluZyUyMGRhc2hib2FyZHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+}
+
+.p2{
+    position: relative;
+    top: -25%;
+}
+
+.p3{
+    position: relative;
+    top: -50%;
+}
+
+#text4>h4{
+    /* color: rgb(216, 117, 216);
+    position: relative;
+    left: 5%;
+    top: 80px;
+     transform: rotate(-20deg);  */
+
+     transform: rotate(-20deg);
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    color: rgb(216, 117, 216);
+}
+
+#text4>h1{
+    position: relative;
+    left: 5%;
+    top: 110px;
+    font-size: 60px;
+}
+
+#image>img{
+    height: 30%;
+    width: 15%;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    border-radius: 50%; 
+    background-color: rgb(244, 191, 92); 
+}
+
+
+/* _______________________________________________PAGE = 4______________________________________________ */
+
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:rgb(244, 191, 92); */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+#left1{
+    height: 65%;
+    width: 35%;
+    
+    
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#left1>i{
+    font-size: 50px;
+    position: absolute;
+    margin-top: -110px;
+    left: 200px;
+}
+
+#left1>h2{
+    position: absolute;
+    left: 180px;
+    transform: rotate(10deg);
+}
+
+#left1>h3{
+    position: absolute;
+    margin-top: -100px;
+    left: 250px;
+}
+
+
+#left1>.circle{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    font-size: xx-large;
+    position: relative;
+    margin-top: 150px;
+    right: -65%;
+}
+
+#right1{
+    height: 70%;
+    width: 30%;
+   
+}
+
+#right1>h1{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+#right1>h4{
+    transform: rotate(-20deg);
+    position: relative;
+    top: -10%;
+    left: -2%;
+    color: rgb(216, 117, 216);
+}
+
+.one{
+    height: 20%;
+    width: 100%;
+   
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.one>.circle>i{
+    font-size: xx-large;
+}
+.one>.circle{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="page">
+            <div id="nav">
+                <img id="logo" src="logo1.jpg" alt="">
+                <div id="center-nav">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Contact</a>
+                </div>
+                <input type="text" placeholder="search" >
+            </div>
+            <img src="logo.avif" alt="">
+            <div id="text">
+                <h5>Hello</h5>
+                <h1>WE HAVE <BR> DESIGN <BR> EXPERIENCE
+                <BR>
+                <H4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi labore minima odio a suscipit nulla sapiente impedit similique atque.</H4></BR></BR></BR></h1>
+                <div id="button">
+                    <button id="b1">LET'S TALK <i class="ri-telegram-line"></i></button>
+                    <button id="b2">PORTFOLIO <i class="ri-arrow-right-up-line"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="page1">
+            <div id="left">
+                <div class="box1">
+                    <h4>01/</h4>
+                    <h1>WEB UI/UX <BR>DESIGN</BR></h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div class="box2">
+                    <h4>02/</h4>
+                    <h1>MOBILE APP UI/<BR>UX DESIGN</BR></h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div class="box3">
+                    <h4>03/</h4>
+                    <h1>DASHBOARD &<BR>SAAS DESIGN</BR></h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+            </div>
+            <div id="right">
+                <div id="text1">
+                    <h5>SERVICES</h5>
+                    <h1>SERVICES I <BR>OFFER</BR></h1>
+                    <H4>---------Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt illo eligendi saepe distinctio quas inventore asperiores, reiciendis expedita fugiat?</H4>
+
+                </div>
+                <img src="logo2.png" alt="">
+            </div>
+        </div>
+        <div id="page2">
+            <div id="left">
+                <div id="box11">
+                    <h1>Experience</h1>
+                </div>
+                <div id="box22">
+                    <h4>2019 - Present <h2>Product Designer</h2> <br> <h6>Amazon</h6></h4>
+                </div>
+                <div id="box33">
+                    <h4>2018 - 2019 <h2>UI/UX Designer <br> <h6>Microsoft</h6></h2></h4>
+                </div>
+                <div id="box44">
+                    <h4>2016 - 2018 <h2>Web UI/UX Designer <br> <h6>Google</h6></h2></h4>
+                </div>
+                <div id="box55">
+                    <h4>2014 - 2016 <h2>UI Designer <br> <h6>Facebook</h6></h2></h4>
+                </div>
+                
+
+            </div>
+            <div id="right">
+                <div id="up">
+                    <h4>Experience</h4>
+                    <h1>Skills & <br> Experience</h1>
+                    
+                    <h5>_________Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste ex cum ducimus temporibus rerum sunt. Quo recusandae quisquam modi a!</h5>
+                </div>
+                <div id="down">
+                    <div class="skill">
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="gola">
+                        <div class="circle1"><i class="ri-pencil-ruler-2-line"></i>
+                            <h3>Visual Design</h3>
+                            </div>
+                        
+                        <div class="circle1"><i class="ri-pencil-ruler-line"></i>
+                            <h3>Wireframe</h3>
+                        </div>
+                       
+                        <div class="circle1"><i class="ri-bar-chart-box-fill"></i>
+                            <h3>User Experience Design</h3>
+                        </div>
+                       
+                    </div>
+                    <div class="gola">
+                        <div class="circle1"><i class="ri-mac-fill"></i>
+                        <h3>Prototype</h3>
+                        </div>
+                        <div class="circle1"><i class="ri-blur-off-fill"></i>
+                        <h3>Art Directions</h3>
+                        </div>
+                        <div class="circle1"><i class="ri-login-box-fill"></i>
+                        <h3>User Research</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+
+            <div id="text4">
+                <h4> Project</h4>
+                <h1>Latest <br>Projects</h1>
+            </div>
+               <div class="project">
+                <div class="projects p1">
+                    <div class="text3">
+                        <h1>Plantshop Landing <br> Page Design</h1> 
+                        <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                    </div>
+                    <div class="img"></div>
+                </div>
+                <div class="projects p2">
+                    <div class="text3">
+                        <h1>VPS Hosting <br> Website Design</h1> 
+                        <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                    </div>
+                    <div class="img2"></div>
+                   
+                    
+                </div>
+                <div class="projects p3">
+                    <div class="text3">
+                        <h1>Booking Landing Page <br>Design</h1> 
+                        <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                    </div>
+                    <div class="img3"></div>
+                </div>
+               </div>
+
+               <div id="image">
+                <img src="logo2.png" alt="">
+
+               </div>
+              
+        </div>
+        <div id="page4">
+                      <div id="left1">
+                        <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                        <i class="ri-shake-hands-fill"></i>
+                        <h3>Hand Shake</h3>
+                        <h2>__________________________________</h2>
+                      </div>
+                      <div id="right1">
+                        <h4>Contact</h4><br>
+                        <h1>Let's Discuss <br> Your Project</h1>
+
+                        <div class="one">
+                            <div class="circle"><i class="ri-message-2-fill"></i>                    
+                            </div>
+                            <h6>Email</h6><br><h3>Client.anushka@gmail.com</h3>
+                        </div>
+                        <div class="one">
+                            <div class="circle"><i class="ri-map-pin-add-fill"></i></div>
+                            <h6>Location</h6><br><h3>Washington AVE Manschester,<br>Kentucky 39495</h3>
+                        </div>
+                      </div>
+        </div>
+    </div>
+</body>
+</html>
